@@ -3,8 +3,8 @@ local SaveManager = loadstring(game:HttpGet("https://pastebin.com/raw/bXaCWpsW")
 local InterfaceManager = loadstring(game:HttpGet("https://pastebin.com/raw/3er8tjDE"))()
 
 local Window = Fluent:CreateWindow({
-	Title = "7Hb - Wawes DEV",
-	SubTitle = "v 1.0.9",
+	Title = "WawesDEV.gg",
+	SubTitle = "v 1.2.5",
 	TabWidth = 120,
 	Size = UDim2.fromOffset(550, 350),
 	Acrylic = false, 
@@ -56,7 +56,7 @@ end
 
 function Notify(Des, Time, title)
 	Fluent:Notify({
-		Title= title or "7Hb Hub Notify",
+		Title= title or "WWS Hub Notify",
 		Content = Des,
 		Duration = Time or 3
 	})
@@ -3666,16 +3666,16 @@ end
 
 InfoFish = Tap.General:AddSection('Info Fish') do
 	InfoPrice = InfoFish:AddParagraph({        
-		Title = "getwawes.gg: Success 〽️"
+		Title = "getwawes.gg: N/A"
 	})
 	InfoRarity = InfoFish:AddParagraph({        
-		Title = "KEY 🔑: N/A"
+		Title = "none: N/A"
 	})
 	InfoChance = InfoFish:AddParagraph({        
-		Title = "v: 1.0"
+		Title = "v: 1.5"
 	})
 	InfoFavouriteBait = InfoFish:AddParagraph({        
-		Title = "Status: Wawes Development"
+		Title = "none: N/A"
 	})
 	
 	Dropdown(InfoFish, "Select Fish", "", FishList, false, "Select Fish Info")
