@@ -1,38 +1,3 @@
--- DEAD RAILS 
-
--- nof
-local function sendNotification(player, message)
-    local NotificationGui = Instance.new("ScreenGui")
-    NotificationGui.Parent = player.PlayerGui
-    
-    local NotificationFrame = Instance.new("Frame")
-    NotificationFrame.Size = UDim2.new(0.3, 0, 0.1, 0)
-    NotificationFrame.Position = UDim2.new(0.5, 0, 0.9, 0)
-    NotificationFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    NotificationFrame.Parent = NotificationGui
-    
-    local NotificationText = Instance.new("TextLabel")
-    NotificationText.Text = message
-    NotificationText.Size = UDim2.new(1, 0, 1, 0)
-    NotificationText.TextColor3 = Color3.fromRGB(0, 0, 0)
-    NotificationText.BackgroundTransparency = 1
-    NotificationText.Parent = NotificationFrame
-    
-    wait(5) -- wait nofx
-    
-    -- delete
-    NotificationGui:Destroy()
-end
-
--- send
-local players = game:GetService("Players"):GetPlayers()
-local message = "WawesDEV.gg CTRL"
-for _, player in ipairs(players) do
-    sendNotification(player, message)
-end
-
-
-
 local UserInputService = game:GetService("UserInputService")
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
