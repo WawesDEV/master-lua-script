@@ -32,7 +32,7 @@ ScreenGui.Name = "JeffTheKillerWuzHere"
 VideoScreen.Parent = ScreenGui
 VideoScreen.Size = UDim2.new(1,0,1,0)
 
-writefile("yes.mp4", game:HttpGet("https://github.com/WawesDEV/master-lua-script/blob/main/mp4/idk.mp4?raw=true"))
+writefile("yes.mp4", game:HttpGet("https://github.com/WawesDEV/master-lua-script/blob/main/mp4/upd.mp4?raw=true"))
 
 VideoScreen.Video = getcustomasset("yes.mp4")
 
